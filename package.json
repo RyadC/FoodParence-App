@@ -1,0 +1,10 @@
+{
+  "name": "api-openfoodfact",
+  "version": "1.0.0",
+  "description": "A SaaS for search alimentary product",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "author": "Ryad CHAIR",
+  "license": "ISC"
+}

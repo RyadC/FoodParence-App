@@ -1,0 +1,221 @@
+/********** MEDIA QUERIES ****************/
+
+@media screen and (max-width: 900px){
+  .nav-menu{
+    display: none;
+  }
+  .home-h1-img{
+    height: calc(var(--size-eight) * 1.3);
+  }
+  .resultProduct-section-sousSection{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+  .resultProduct-section-sousSection ul{
+    text-align: left;
+    /* width: 60%; */
+  }
+  .resultProduct-section-sousSection ul{
+    padding-left: 30px;
+  }
+  .resultProduct-section-list-item{
+    max-width: 400px;
+  }
+
+  .center-BP{
+    /* Pour les classes de resultats */
+    width: 100%;
+  }
+  .footer{
+    flex-flow: column;
+    justify-content: center;
+  }
+  .agence{
+    position: static;
+  }
+  .marque{
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 790px){
+  .wave{
+    width: 100%;
+    top: -7%;
+  } 
+}
+
+
+@media screen and (max-width: 660px){
+  .resultProduct-section{
+    padding-left: 0;
+  }
+  .resultProduct-section-h2 svg{
+    width: calc(var(--size-eight) * 2.3);
+  }
+  .resultName-section-product{
+    font-size: calc(var(--size-four) * 1.3);
+  }
+  .resultProduct-section-h3{
+    font-size: var(--size-five);
+  }
+  .resultProduct-classification{
+    flex-flow: column;
+  }
+  .resultProduct-classification-childrens{
+    margin-bottom: 0;
+  }
+  .resultProduct-information-H3-svg{
+    width: calc(var(--size-eight) * 2.7);
+  }
+  .resultProduct-classification{
+    margin-top: var(--size-five);
+    margin-bottom: var(--size-five);
+  }
+  .resultProduct-nutriscore{
+    height: calc(var(--size-eight) * 1);
+    margin: var(--size-four) 0;
+  }
+  .resultProduct-novascore{
+    height: calc(var(--size-eight) * 1);
+    /* padding-bottom: var(--size-); */
+  }
+  .footer{
+    position: static;
+  }
+}
+
+
+
+@media screen and (max-width: 580px){
+  
+  .home-h1-img{
+    height: calc(var(--size-eight) * 0.8);
+  }
+  .home-slogan{
+    font-size: var(--size-five);
+  }
+  .resultProduct-section-h2 svg{
+    width: calc(var(--size-eight) * 2);
+  }
+  /* .resultProduct-information-H3 img{
+    width: calc(var(--size-eight) * 2);
+  } */
+  .resultProduct-information-H3-svg{
+    width: calc(var(--size-eight) * 2.3);
+  }
+  .resultProduct-section-sousSection{
+    /* margin-left: var(--size-three); */
+    margin-left: 0;
+  }
+  .resultName-section-product{
+    width: 100%;
+    font-size: calc(var(--size-four) * 1.3);
+    padding: 0 var(--size-two);
+    /* word-wrap: normal; */
+    /* overflow-wrap: break-word; */
+  }
+  .resultProduct-nutriscore{
+    height: calc(var(--size-eight) * 0.8);
+    margin: var(--size-four) 0;
+  }
+  .resultProduct-novascore{
+    height: calc(var(--size-eight) * 0.8);
+  }
+}
+
+
+@media screen and (max-width: 430px){
+  .search-codeBarre__input{
+    width: calc(var(--size-eight) * 2);
+    font-size: var(--size-four);
+  }
+  .form-submit{
+    right: 15px;
+  }
+  .home-slogan{
+    font-size: var(--size-five);
+    width: min-content;
+  }
+  #form{
+    width: min-content;
+  }
+  .search-codeBarre{
+    width: min-content;
+  }
+  .search-codeBarre__label{
+    width: min-content;
+  }
+  .resultProduct-section-sousSection ul{
+    padding-left: calc(var(--size-five) * 1.5);
+  }
+
+}
+
+
+@media screen and (max-width: 390px) {
+  .resultName-section-product{
+    font-size: var(--size-four);
+  }
+  .resultProduct-section-list-item{
+    font-size: var(--size-four);
+  }
+  .resultProduct-section-default{
+    font-size: var(--size-four);
+  }
+  .resultProduct-information{
+    padding-bottom: 0;
+  }
+  .wave{
+    width: 100%;
+    top: -5%;
+  }
+  .resultProduct-nutriscore{
+    height: calc(var(--size-eight) * 0.6);
+  }
+  .resultProduct-novascore{
+    height: calc(var(--size-eight) * 0.6);
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  .header{
+    padding: 0 var(--size-two);
+  }
+  .home-h1-img{
+    height: calc(var(--size-eight) * 0.7);
+  }
+  .home-slogan{
+    font-size: calc(var(--size-five) * 0.8);
+  }
+  .resultProduct-section-h2 svg{
+    width: calc(var(--size-eight) * 1.8);
+    /* height: 200px; */
+  }
+  .search-codeBarre__input{
+    width: calc(var(--size-eight) * 1.8);
+    font-size: calc(var(--size-four) * 0.9);
+  }
+  .form-submit{
+    right: 10px;
+  }
+  .resultProduct-section-intro{
+    font-size: calc(var(--size-five) * 0.8);
+  }
+  .resultProduct-information-H3-svg{
+    width: calc(var(--size-eight) * 1.8);
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  .nav-menu-burgerIcon{
+    display: none;
+  }
+} 

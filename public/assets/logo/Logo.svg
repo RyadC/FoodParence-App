@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="831.333" height="322.617" viewBox="0 0 831.333 322.617">
+  <defs>
+    <filter id="Rectangle_9" x="200.955" y="17.133" width="480.372" height="305.483" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Tracé_3" x="72.474" y="0" width="641.967" height="307.606" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_7" x="0" y="7.142" width="831.333" height="218.365" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Groupe_1" data-name="Groupe 1" transform="translate(-613 -50.604)">
+    <g transform="matrix(1, 0, 0, 1, 613, 50.6)" filter="url(#Rectangle_9)">
+      <path id="Rectangle_9-2" data-name="Rectangle 9" d="M72.526,0h400.19a6.137,6.137,0,0,1,6.137,6.137v0a72.526,72.526,0,0,1-72.526,72.526H6.137A6.137,6.137,0,0,1,0,72.526v0A72.526,72.526,0,0,1,72.526,0Z" transform="translate(206.96 239.53) rotate(-27)" fill="#d1ffae"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 613, 50.6)" filter="url(#Tracé_3)">
+      <path id="Tracé_3-2" data-name="Tracé 3" d="M127.395,1.73l472.78,6.421A10.9,10.9,0,0,1,611.1,18.569h0c.956,67.048-55.306,120.627-125.665,119.671L12.656,131.82A10.9,10.9,0,0,1,1.73,121.4C.775,54.353,57.037.775,127.395,1.73Z" transform="translate(76.37 161.51) rotate(-15)" fill="#a9de81"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 613, 50.6)" filter="url(#Rectangle_7)">
+      <g id="Rectangle_7-2" data-name="Rectangle 7" transform="translate(6 12.14)" fill="#fff" stroke="#a9de81" stroke-width="3">
+        <path d="M11,0H683.333a130,130,0,0,1,130,130v59.365a11,11,0,0,1-11,11H130a130,130,0,0,1-130-130V11A11,11,0,0,1,11,0Z" stroke="none"/>
+        <path d="M11,1.5H683.333A128.5,128.5,0,0,1,811.833,130v59.365a9.5,9.5,0,0,1-9.5,9.5H130A128.5,128.5,0,0,1,1.5,70.365V11A9.5,9.5,0,0,1,11,1.5Z" fill="none"/>
+      </g>
+    </g>
+    <text id="FoodParence" transform="translate(774 189.291)" fill="#347503" font-size="79" font-family="Comfortaa" letter-spacing="-0.05em" opacity="0.7"><tspan x="0" y="0">FoodParence</tspan></text>
+  </g>
+</svg>

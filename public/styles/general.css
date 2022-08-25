@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body{
+  height: 100%;
+  width: 100vw;
+  min-width: 275px;
+  overflow-x: hidden;
+}
+
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa';
+  font-weight: lighter;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-width: 275px;
+}

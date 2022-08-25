@@ -1,0 +1,16 @@
+/*********** HOME ****************/
+.home{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-white);
+  z-index: 4;
+}
+.home-h1{
+  margin: calc(var(--size-seven) * 0.6) 0;
+}
+.home-h1-img{
+  height: calc(var(--size-eight) * 1.9);
+}
+
